@@ -1,6 +1,7 @@
 'use strict';
 
 const express = require('express');
+const logger = require('./utils/logger');
 const bodyParser = require('body-parser');
 const app = express();
 const exphbs = require('express-handlebars');
@@ -16,5 +17,5 @@ const routes = require('./routes');
 app.use('/', routes);
 
 const listener = app.listen(process.env.PORT || 4000, function () {
-  console.log('Your app is listening on port ' + listener.address().port);
+  logger.info(`gomix-template-1 started on port ${listener.address().port}`);
 });

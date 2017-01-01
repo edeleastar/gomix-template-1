@@ -12,7 +12,8 @@
     "express-handlebars": "^3.0.0",
     "lodash": "^4.17.3",
     "lowdb": "^0.14.0",
-    "uuid": "^3.0.1"
+    "uuid": "^3.0.1",
+    "winston": "^2.3.0"
   },
   "engines": {
     "node": "6.9.1"
@@ -21,7 +22,7 @@
     "url": "https://github.com/edeleastar/gomix-template-1.git"
   },
   "keywords": [
-    "node",
+    "node",node s
     "gomix",
     "express"
   ]
