@@ -1,4 +1,4 @@
-Welcome to the Gomix Templat 1
+Welcome to the Gomix Template 1
 ==============================
 
 A starter project for learning Gomix
