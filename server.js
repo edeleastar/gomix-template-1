@@ -3,6 +3,8 @@
 const express = require('express');
 const logger = require('./utils/logger');
 const bodyParser = require('body-parser');
+const cookieParser = require('cookie-parser');
+
 const app = express();
 const exphbs = require('express-handlebars');
 app.use(bodyParser.urlencoded({ extended: false, }));
